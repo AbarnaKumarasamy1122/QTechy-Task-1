@@ -20,7 +20,7 @@ const NewCard = () => {
           <div className="mt-10 flex flex-col sm:flex-row sm:justify-center gap-4">
             <a
               href="#unlock"
-              className="btn btn-lg bg-purple-900 text-white shadow text-lg flex items-center justify-center gap-2 w-full sm:w-auto"
+              className="btn btn-lg bg-fuchsia-900 text-white shadow text-lg flex items-center justify-center gap-2 w-full sm:w-auto"
             >
               Unlock your Card
               <CreditCard className="h-5 w-5" />

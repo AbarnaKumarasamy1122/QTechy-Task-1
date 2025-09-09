@@ -22,7 +22,7 @@ const Feature = () => {
             aliquam tincidunt, nunc nisl aliqua.
           </p>
 
-          <p className="text-m text-purple-900 font-semibold mb-3 flex items-center justify-center gap-3">
+          <p className="text-m text-fuchsia-900 font-semibold mb-3 flex items-center justify-center gap-3">
             Compare all Pro features
             <ArrowRight className="h-5 w-5" />
           </p>

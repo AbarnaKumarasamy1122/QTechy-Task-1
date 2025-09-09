@@ -11,7 +11,7 @@ const Hero = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-10 md:pt-20 md:pb-12">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-m text-purple-900 font-semibold mb-3">
+          <p className="text-m text-fuchsia-900 font-semibold mb-3">
             Seamless experience
           </p>
 
@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="mt-7 flex items-center justify-center gap-3">
             <a
               href="#cta"
-              className="btn btn-lg bg-purple-900 text-white hover:bg-indigo-500 shadow"
+              className="btn btn-lg bg-fuchsia-900 text-white shadow"
             >
               Unlock your Card
               <ArrowRight className="h-5 w-5" />
@@ -45,11 +45,49 @@ const Hero = () => {
             *No credit card required
           </p>
 
+          <div className="mt-10 grid grid-cols-4 md:grid-cols-5 lg:grid-cols-8 gap-6">
+            
           <img
-            src="/assets/container.png"
+            src="/assets/nuxt.png"
             alt="Container"
             className="mx-auto mt-10 w-[600px] rounded-xl shadow-lg"
           />
+          <img
+            src="/assets/miro.png"
+            alt="Container"
+            className="mx-auto mt-10 w-[600px] rounded-xl shadow-lg"
+          />
+          <img
+            src="/assets/lottie.png"
+            alt="Container"
+            className="mx-auto mt-10 w-[600px] rounded-xl shadow-lg"
+          />
+          <img
+            src="/assets/company logo.png"
+            alt="Container"
+            className="mx-auto mt-10 w-[600px] rounded-xl shadow-lg"
+          />
+          <img
+            src="/assets/dribble.png"
+            alt="Container"
+            className="mx-auto mt-10 w-[600px] rounded-xl shadow-lg"
+          />
+          <img
+            src="/assets/kinsta.png"
+            alt="Container"
+            className="mx-auto mt-10 w-[600px] rounded-xl shadow-lg"
+          />
+          <img
+            src="/assets/angellist.png"
+            alt="Container"
+            className="mx-auto mt-10 w-[600px] rounded-xl shadow-lg"
+          />
+          <img
+            src="/assets/behance.png"
+            alt="Container"
+            className="mx-auto mt-10 w-[600px] rounded-xl shadow-lg"
+          />
+          </div>
         </div>
       </div>
     </section>
